@@ -1,0 +1,340 @@
+/*
+-- Colors --
+Dark Red #861619
+Blue-grey #6F8184
+Darker Blue-grey #749489
+Light-grey #CAD2D3
+
+-- Fonts --
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Lusitana', serif;
+  font-family: 'Cardo', serif;
+*/
+
+
+/* Main Body Styles --------------------------------------------------------- */
+
+body h1 {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 18px 0 24px;
+  color: #6F8184;
+}
+
+body h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #6F8184;
+}
+
+body h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  margin: 6px 0 6px;
+  color: #6F8184;
+}
+
+body h3 strong {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+}
+
+body h4 {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 6px 0 6px;
+  color: #6F8184;
+}
+
+body h5 {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 18px 0px 18px;
+  color: #6F8184;
+}
+
+body h6 {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 6px 0 6px;
+  color: #CAD2D3;
+}
+
+body p {
+  font-family: "Cardo";
+  margin: 0 0 32px;
+  color: #555;
+  font-size: 16px;
+}
+
+body link:hover {
+  color: #3E4249;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Front Page Image and overlapping logo ------------------------------------ */
+
+#hero {
+  background: rgba(204, 215, 219, 1.0);
+  background: -moz-linear-gradient(270deg, rgba(204, 215, 219, 1.0)) 0.1%, rgba(255, 255, 255, 0.0) 3%);
+  background: -webkit-linear-gradient(270deg, rgba(204, 215, 219, 1.0)) 0.1%, rgba(255, 255, 255, 0.0) 3%);
+  background: -o-linear-gradient(270deg, rgba(204, 215, 219, 1.0)) 0.1%, rgba(255, 255, 255, 0.0) 3%);
+  background: -ms-linear-gradient(270deg, rgba(204, 215, 219, 1.0)) 0.1%, rgba(255, 255, 255, 0.0) 3%);
+  background: linear-gradient(0deg, rgba(204, 215, 219, 1.0)) 0.1%, rgba(255, 255, 255, 0.0) 3%);
+
+  background-image: url(../assets/img/green-wallpaper-2.png);
+  z-index: -1;
+  padding: 60px 0 60px;
+
+}
+
+#art-cover {
+  background-image: url(../assets/img/green-wallpaper-2.png);
+  z-index: 0;
+  padding: 60px 0 60px;
+}
+
+#foreground-logo {
+  max-width: 70%;
+  height: inherit;
+  z-index: 1;
+}
+
+#hours, #add-1, #add-2, #phone {
+  color: #3E4249;
+}
+
+/* Navbar ------------------------------------------------------------------- */
+
+.main-nav .active {
+  font-family: "Ubuntu";
+  background-color: #6F8184 !important;
+  color: ##CAD2D3 !important;
+  margin-right: 12px !important;
+  margin-left: 12px !important;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding-top: 10px;
+}
+
+.navbar {
+  border-top: solid 3px #6F8184;
+}
+
+.navbar, .nav-item, .nav-link, .fa-circle {
+  font-family: "Ubuntu";
+  font-size: 18px;
+  background-color: #CAD2D3;
+  color: #6F8184;
+}
+
+.nav-item:hover {
+  color: #3E4249;
+}
+
+.navbar i {
+  font-size: 6px;
+  padding-bottom: 4px;
+}
+
+/* Features ----------------------------------------------------------------- */
+
+#features img {
+  margin: 60px 0 24px;
+  border: 6px solid #ddd;
+  border-radius: 6%;
+}
+
+#features {
+  background: rgb(204, 215, 219);
+  background: -moz-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: -webkit-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: -o-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: -ms-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: linear-gradient(180deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+}
+
+/* Special Requests Page ---------------------------------------------------- */
+
+
+#spec-requests-pg {
+  padding: 60px 0 24px;
+  background: rgb(204, 215, 219);
+  background: -moz-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: -webkit-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: -o-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: -ms-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: linear-gradient(180deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+}
+
+button {
+  font-family: "Ubuntu" !important;
+  font-size: 20px;
+  color: #eee;
+  background-color: #861619;
+}
+
+button:hover {
+  font-family: "Ubuntu";
+  color: #fff;
+  background-color: #6fA042;
+}
+
+button:active {
+  background-color: #6A9B3D;
+}
+
+
+/* Default Page ---------------------------------------------------- */
+
+#default-page img {
+  margin: 60px 0 24px;
+  border: 6px solid #ddd;
+  border-radius: 6%;
+}
+
+#default-page {
+  background: rgb(204, 215, 219);
+  background: -moz-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: -webkit-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: -o-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: -ms-linear-gradient(90deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+  background: linear-gradient(180deg, rgb(204, 215, 219) 0.1%, rgb(255, 255, 255) 1%);
+}
+
+
+/* New Items ---------------------------------------------------------------- */
+
+#new-items {
+  margin: 60px 0 60px;
+}
+
+
+
+/* Pics for New Items ------------------------------------------------------- */
+
+#new-items img {
+  max-width: 500px;
+  border: 6px solid #ddd;
+  border-radius: 2%;
+}
+
+#new-items-banner {
+  background: url(../assets/img/wall-of-pics.png) repeat fixed;
+  border-top: 6px solid #ddd;
+  border-bottom: 6px solid #ddd;
+  padding: 150px;
+}
+
+#new-items-banner h1 {
+  color: white;
+  text-shadow: 0px 0px 18px rgba(0, 0, 0, 1.0);
+}
+
+
+/* Special Requests --------------------------------------------------------- */
+
+#spec-requests {
+  background: url(../assets/img/wooden-chair.png) center;
+  padding: 270px 0 270px;
+  vertical-align: center !important;
+}
+
+#spec-requests h3, #spec-requests p{
+  color: white;
+  text-shadow: 0px 0px 18px rgba(0, 0, 0, 1.0);
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 12px;
+}
+
+/* About -------------------------------------------------------------------- */
+
+#about img {
+  max-width: 300px;
+  border: 6px solid #ddd;
+  border-radius: 6%;
+}
+
+#about, #about-pg {
+  margin: 60px 0 60px;
+}
+
+#about-pg img {
+  border: 6px solid #ddd;
+  border-radius: 6%;
+}
+/* Props -------------------------------------------------------------------- */
+
+#props-pg {
+  margin: 60px 0 60px;
+}
+
+#props-pg img {
+  border: 6px solid #ddd;
+  border-radius: 6%;
+}
+
+/* Footer -------------------------------------------------------------------- */
+
+footer {
+  background: rgb(111, 129, 132);
+  background: -moz-linear-gradient(270deg, rgb(111, 129, 132) 90%, rgb(255, 255, 255) 100%);
+  background: -webkit-linear-gradient(270deg, rgb(111, 129, 132) 90%, rgb(255, 255, 255) 100%);
+  background: -o-linear-gradient(270deg, rgb(111, 129, 132) 90%, rgb(255, 255, 255) 100%);
+  background: -ms-linear-gradient(270deg, rgb(111, 129, 132) 90%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(0deg, rgb(111, 129, 132) 90%, rgb(255, 255, 255) 100%);
+  padding: 42px 18px 0px;
+}
+
+footer p {
+  color: #CAD2D3;
+  font-family: "Cardo";
+  font-size: 16px;
+  margin: 0;
+}
+
+footer img {
+  padding-bottom: 18px;
+}
+
+footer p {
+  margin-bottom: 12px;
+}
+
+footer a {
+  color: #CAD2D3;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Media Queries ------------------------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+  .navbar i {
+    display: none;
+  }
+
+  .main-nav .active {
+    margin-top: 12px !important;
+  }
+
+  #logo-copyright {
+    padding: 24px;
+    display: block;
+    align-self: flex-end;
+  }
+
+  #address-footer {
+    padding: 24px;
+  }
+
+  #sitemap {
+  display: none;
+  }
+}
